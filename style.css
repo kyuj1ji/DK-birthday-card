@@ -3,7 +3,8 @@ body {
     align-items: center;
     justify-content: center;
     height:100vh;
-    background-color: #ff9fd4;
+    background-color: #ffb6e1;
+    
   }
   
   .birthdayCard {
@@ -23,6 +24,8 @@ body {
   
   .birthdayCard:hover .cardFront {
     transform: rotateY(-160deg); 
+    background-image: url(https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.15752-9/421906384_3780178792216106_3923135654426511327_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEhZQkM2cp2fZdIemFL52BVmnKM7T4uEKOacoztPi4Qo-Voh6ThXLuIBcKJiiWJdE0ORNL28Cu_AwG-KdaDA5DU&_nc_ohc=stAHYmUslnkAX-SjSdr&_nc_ht=scontent.fmnl9-1.fna&oh=03_AdQZbSjrsm26mHpLykKXmMPrk4AR1dFCo0T4dzAXrJDL1A&oe=660A3947);
+    background-size: contain;
   }
   
   .birthdayCard:hover .front-text {
@@ -230,8 +233,9 @@ body {
   }
   
   p {
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'palatino', cursive;
     color: #333;
+    font-size: small;
   }
   
   .name {
